@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1286AB18-CFE7-4CD5-9DC7-58E79C781B2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Calculadora</RootNamespace>
+    <AssemblyName>Calculadora</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6f791b8cca4d72de340e3d0a4da9a70a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_shutdown_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_estimate_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rounded_rectangle_stroked_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_circle_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black_circle_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghibli-studio-phone-wallpaper-thypix-24-408x816.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-ponyo-anime-movie-studio-ghibli-thumbnail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-ponyo-anime-movie-studio-ghibli-thumbnail1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-ponyo-anime-movie-studio-ghibli-thumbnail2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lkfgjsd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\platinum-7278586_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e9bf1713292f9055d319f163b07eb21b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e9bf1713292f9055d319f163b07eb21b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smjfhasjh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number_1_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector-Glass-Box-PNG-Download-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number_1_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_key_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_and_minus_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_and_minus_30px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_level_1_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_level_1_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMaisMenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6f791b8cca4d72de340e3d0a4da9a70a1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumblr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnZero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnVirgula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnIgual.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnIgual1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnUm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDois.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnTres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSoma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSeis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCinco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnQuatro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnSete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnOito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMultiplicação.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDivisão.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnPorcentagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnParenteses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_backspace_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Sem título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\1998827.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\bdaceff60d1a9e0344fa530285565e5e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\icons8_1_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\1_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\wp9086270.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\2_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\3_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\4_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\5_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\6_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\7_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\8_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\9_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\0_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_pane_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\igual_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\igual2_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\mais_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\menos_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\x_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\xx_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Xxxx_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\dividir_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\percentt_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\div_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Ac_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\+-_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\virg_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_pane1_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_window_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_window_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\drag_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Close Window_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\cancel_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Design sem nome %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
